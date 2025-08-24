@@ -1,0 +1,30 @@
+/* Custom styles for a cleaner font and smooth transitions */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f4f8; /* Softer background color */
+}
+
+/* Custom class for a subtle gradient background */
+.bg-gradient-soft {
+    background-image: linear-gradient(to right, #eef2f7, #e3e9f0);
+}
+
+/* Style for interactive cards */
+.service-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.contact-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
